@@ -1,4 +1,4 @@
-This mod for Crosscode adds most of the OSTs with arrangements or remixes of said OSTs to the game.
+This mod for Crosscode adds some of the OSTs with arrangements or remixes of said OSTs to the game.
 The aim of this mod is to provide another unique experience when replaying the game.
 Currently this mod adds 16 songs.
 
