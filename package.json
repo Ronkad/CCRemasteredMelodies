@@ -1,11 +1,11 @@
 {
     "id": "cc-remastered-melodies",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "name": "Crosscode Remastered Melodies",
     "description": "Replaces most of the music with arrangements or remixes of the same song.",
     "author": "Ronkad",
     "ccmodDependencies": {
-		"ccloader": "^2.22.0",
-		"crosscode": "^1.0.0"
-	}
-  }
+      "ccloader": "^2.22.0",
+      "crosscode": "^1.0.0"
+	  }
+}
