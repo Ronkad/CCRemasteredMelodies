@@ -1,0 +1,33 @@
+{
+	"id": "cc-remastered-melodies",
+	"version": "1.1.0",
+	"title": {
+		"en_US": "Crosscode Remastered Melodies",
+		"de_DE": "Crosscode Remastered Melodies",
+		"fr_FR": "Crosscode Remastered Melodies",
+		"zh_CN": "Crosscode Remastered Melodies",
+		"zh_TW": "Crosscode Remastered Melodies",
+		"ja_JP": "Crosscode Remastered Melodies",
+		"ko_KR": "Crosscode Remastered Melodies"
+	},
+	"description": {
+		"en_US": "Replaces some of the music in CrossCode with remastered versions of the original tracks.",
+		"de_DE": "Ersetzt einige Musikstücke in CrossCode durch remasterte Versionen der Originaltitel.",
+		"fr_FR": "Remplacez certaines musiques de CrossCode par des versions remasterisées des pistes originales.",
+		"zh_CN": "用原始曲目的重新制作版本替换CrossCode中的一些音乐。",
+		"zh_TW": "用原始曲目的重新製作版本替換CrossCode中的一些音樂。",
+		"ja_JP": "CrossCodeの一部の音楽を、オリジナルのトラックのリマスター版に置き換えます。",
+		"ko_KR": "CrossCode의 일부 음악을 원래 트랙의 리마스터 버전으로 대체합니다."
+	},
+	"icons": {
+		"24": "modassets/icon.png"
+	},
+	"repository": "https://github.com/Ronkad/CCRemasteredMelodies",
+	"tags": ["music", "OST"],
+	"authors": ["Ronkad"],
+	"prestart": "prestart.js",
+	"dependencies": {
+		"Simplify": ">=2.12.1",
+		"crosscode": ">=1.0.0"
+	}
+}
