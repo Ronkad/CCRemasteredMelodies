@@ -1,6 +1,6 @@
 {
 	"id": "cc-remastered-melodies",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"title": {
 		"en_US": "Crosscode Remastered Melodies",
 		"de_DE": "Crosscode Remastered Melodies",
@@ -20,7 +20,7 @@
 		"ko_KR": "CrossCode의 일부 음악을 원래 트랙의 리마스터 버전으로 대체합니다."
 	},
 	"icons": {
-		"24": "modassets/icon.png"
+		"24": "icon/icon.png"
 	},
 	"repository": "https://github.com/Ronkad/CCRemasteredMelodies",
 	"tags": ["music", "OST"],
