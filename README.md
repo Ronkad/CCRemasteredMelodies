@@ -4,7 +4,7 @@ Currently this mod adds 16 songs.
 
 ### Installation 
 To run this mod, you need [CCLoader](https://github.com/CCDirectLink/CCLoader), the Crosscode mod manager installed and working.
-To install the mod, download the latest Release from Releases and extract the folder into your Crosscode assets/mods
+To install the mod, download the latest Release from Releases put the .ccmod file into your Crosscode assets/mods
 
 ---
 You can find a full list of used songs in Credits.txt
