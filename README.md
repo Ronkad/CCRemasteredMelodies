@@ -11,3 +11,8 @@ To install the mod, download the latest Release from Releases, then put the .ccm
 You can find a full list of used songs in Credits.txt
 
 ![icon](https://github.com/user-attachments/assets/4d6d7a94-51a8-4c1a-b65f-e984114d31bc)
+
+---
+#### Planned:
+- More community remixes
+- Choosing which music gets played
