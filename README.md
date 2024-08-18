@@ -1,7 +1,11 @@
-This mod for Crosscode adds some of the OSTs with arrangements or remixes of said OSTs to the game.
+# Crosscode Remastered Melodies
+*This mod for Crosscode adds some of the OSTs with arrangements or remixes of said OSTs to the game.*
+
 You can choose in a new options menu, which songs you would like to replace.
 The aim of this mod is to provide another unique experience when replaying the game.
 Currently this mod adds 16 songs.
+
+## [Click here to download!](https://github.com/Ronkad/CCRemasteredMelodies/releases/latest)
 
 ## Installation 
 ### Dependencies
