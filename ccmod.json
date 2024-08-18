@@ -1,6 +1,6 @@
 {
 	"id": "cc-remastered-melodies",
-	"version": "1.1.1",
+	"version": "2.0.0",
 	"title": {
 		"en_US": "Crosscode Remastered Melodies",
 		"de_DE": "Crosscode Remastered Melodies",
@@ -24,7 +24,7 @@
 	},
 	"repository": "https://github.com/Ronkad/CCRemasteredMelodies",
 	"tags": ["music", "OST"],
-	"authors": ["Ronkad"],
+	"authors": ["Ronkad", "elluminance"],
 	"prestart": "prestart.js",
 	"dependencies": {
 		"Simplify": ">=2.12.1",

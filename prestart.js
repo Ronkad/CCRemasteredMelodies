@@ -150,7 +150,7 @@ el.musicRemix.registerRemix("autumnsRise", "autumnsRise_ultimateArrange", {
         en_US: "Ultimate Arrange"
     },
     desc: {
-        en_US: "by Steelplus"
+        en_US: "by はがね"
     }
 })
 el.musicRemix.registerRemix("aridBattle", "aridBattle_ultimateArrange", {
@@ -234,7 +234,7 @@ el.musicRemix.registerRemix("emilie", "emilie_ultimateArrange", {
         en_US: "Ultimate Arrange"
     },
     desc: {
-        en_US: "by AAAAAA"
+        en_US: "by ああああ"
     }
 })
 el.musicRemix.registerRemix("evoDungeon2", "evoDungeon2_ultimateArrange", {
