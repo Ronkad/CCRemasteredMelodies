@@ -28,6 +28,7 @@
 	"prestart": "prestart.js",
 	"dependencies": {
 		"Simplify": ">=2.12.1",
-		"crosscode": ">=1.0.0"
+		"crosscode": ">=1.0.0",
+		"el-tweaks": ">=0.8.0"
 	}
 }

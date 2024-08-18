@@ -1,11 +1,12 @@
-const modifiedTracks = {
+
+Object.assign(ig.BGM_TRACK_LIST, {
     //-----remixes-----
-    fieldBattle: {
+    fieldBattle_gametal: {
         path: "music/remixes/Battle2.ogg",
         loopEnd: 122.5,
         volume: 0.5
     },
-    "s-rank": {
+    "s-rank_gametal": {
         introPath: "music/remixes/S-RankBattle_Intro.ogg",
         introEnd: 16,
         path: "music/remixes/S-RankBattle.ogg",
@@ -13,7 +14,7 @@ const modifiedTracks = {
         volume: 0.5
     },
     //-----Ultimate Arrange-----
-    apolloTheme: {
+    apolloTheme_ultimateArrange: {
         introPath: "music/UltimateArrange/ThePathofJustice_Intro.ogg",
         introEnd: 41,
         path: "music/UltimateArrange/ThePathofJustice.ogg",
@@ -21,21 +22,21 @@ const modifiedTracks = {
         volume: 0.5
     },
     //autums rise song gets an intro, because the Ultimate Arrange version comes with an intro
-    autumnsRise: {
+    autumnsRise_ultimateArrange: {
         introPath: "music/UltimateArrange/AutumnsRise_Intro.ogg",
         introEnd: 29.926,
         path: "music/UltimateArrange/AutumnsRise.ogg",
         loopEnd: 190.028,
         volume: 0.5
     },
-    aridBattle: {
+    aridBattle_ultimateArrange: {
         introPath: "music/UltimateArrange/Battle3_Intro.ogg",
         introEnd: 12.884,
         path: "music/UltimateArrange/Battle3.ogg",
         loopEnd: 143.761,
         volume: 0.5
     },
-    credits: {
+    credits_ultimateArrange: {
         introPath: "music/UltimateArrange/Ending.ogg",
         introEnd: 244,
         path: "music/UltimateArrange/Lea.ogg",
@@ -43,7 +44,7 @@ const modifiedTracks = {
         volume: 0.5
     },
     //Lea song gets an intro, because the Ultimate Arrange version comes with an intro
-    lea: {
+    lea_ultimateArrange: {
         introPath: "music/UltimateArrange/Lea_Intro.ogg",
         introEnd: 12.240,
         path: "music/UltimateArrange/Lea.ogg",
@@ -51,28 +52,28 @@ const modifiedTracks = {
         volume: 0.5
     },
     //Mysterious song gets an intro, because the Ultimate Arrange version comes with an intro
-    oldHideout1: {
+    oldHideout1_ultimateArrange: {
         introPath: "music/UltimateArrange/Mysterious_Intro.ogg",
         introEnd: 10.849,
         path: "music/UltimateArrange/Mysterious.ogg",
         loopEnd: 129.049,
         volume: 0.5
     },
-    raidTheme: {
+    raidTheme_ultimateArrange: {
         introPath: "music/UltimateArrange/Raid_Intro.ogg",
         introEnd: 90.015,
         path: "music/UltimateArrange/Raid.ogg",
         loopEnd: 211.209,
         volume: 0.5
     },
-    forestField: {
+    forestField_ultimateArrange: {
         introPath: "music/UltimateArrange/SapphireRidge_Intro.ogg",
         introEnd: 48.475,
         path: "music/UltimateArrange/SapphireRidge.ogg",
         loopEnd: 113.28,
         volume: 0.5
     },
-    shizuka: {
+    shizuka_ultimateArrange: {
         introPath: "music/UltimateArrange/Shizuka_Intro.ogg",
         introEnd: 19.294,
         path: "music/UltimateArrange/Shizuka.ogg",
@@ -80,7 +81,7 @@ const modifiedTracks = {
         volume: 0.5
     },
     //Temple of Thunder song gets an intro, because the Ultimate Arrange version comes with an intro
-    shockDungeon: {
+    shockDungeon_ultimateArrange: {
         introPath: "music/UltimateArrange/TempleofThunder_Intro.ogg",
         introEnd: 47.470,
         path: "music/UltimateArrange/TempleofThunder.ogg",
@@ -88,14 +89,14 @@ const modifiedTracks = {
         volume: 0.5
     },
     //Main Title song gets an intro, because the Ultimate Arrange version comes with an intro
-    title: {
+    title_ultimateArrange: {
         introPath: "music/UltimateArrange/MainTitle_Intro.ogg",
         introEnd: 16.131,
         path: "music/UltimateArrange/MainTitle.ogg",
         loopEnd: 41.637,
         volume: 0.5
     },
-    finalBoss: {
+    finalBoss_ultimateArrange: {
         introPath: "music/UltimateArrange/TheUltimateExperience_Intro.ogg",
         introEnd: 32.792,
         path: "music/UltimateArrange/TheUltimateExperience.ogg",
@@ -103,35 +104,152 @@ const modifiedTracks = {
         volume: 0.6
     },
     //ValsedAhoge song gets no intro, because the Ultimate Arrange version comes without an intro
-    emilie: {
+    emilie_ultimateArrange: {
         introPath: null,
         introEnd: null,
         path: "music/UltimateArrange/ValsedAhoge.ogg",
         loopEnd: 109.121,
         volume: 0.5
     },
-    evoDungeon2: {
+    evoDungeon2_ultimateArrange: {
         introPath: "music/UltimateArrange/HackYourWay_Intro.ogg",
         introEnd: 1.729,
         path: "music/UltimateArrange/HackYourWay.ogg",
         loopEnd: 223.345,
         volume: 0.5
     },
-};
-ig.module("game.feature.bgm.modifications")
-.requires("game.feature.bgm.playlist")
-.defines(function () {
-    //this function modifies the BGM_TRACK_LIST object by adding the modifications from the modifiedTracks object
-    if (ig.BGM_TRACK_LIST) {
-        for (const trackName in modifiedTracks) {
-            if (modifiedTracks.hasOwnProperty(trackName) && ig.BGM_TRACK_LIST[trackName]) {
-                const trackModifications = modifiedTracks[trackName];
-                for (const property in trackModifications) {
-                    if (trackModifications.hasOwnProperty(property)) {
-                        ig.BGM_TRACK_LIST[trackName][property] = trackModifications[property];
-                    }
-                }
-            }
-        }
-    }
 });
+
+el.musicRemix.registerRemix("fieldBattle", "fieldBattle_gametal", {
+    name: {
+        en_US: "GaMetal Remix"
+    },
+    desc: {
+        en_US: "by GaMetal"
+    }
+})
+el.musicRemix.registerRemix("s-rank", "s-rank_gametal", {
+    name: {
+        en_US: "GaMetal Remix"
+    },
+    desc: {
+        en_US: "by GaMetal"
+    }
+})
+
+el.musicRemix.registerRemix("apolloTheme", "apolloTheme_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by Qwesta"
+    }
+})
+el.musicRemix.registerRemix("autumnsRise", "autumnsRise_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by Steelplus"
+    }
+})
+el.musicRemix.registerRemix("aridBattle", "aridBattle_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by James Landino"
+    }
+})
+el.musicRemix.registerRemix("credits", "credits_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by Kohta Takahash"
+    }
+})
+el.musicRemix.registerRemix("lea", "lea_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by Shibayan"
+    }
+})
+el.musicRemix.registerRemix("oldHideout1", "oldHideout1_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by Takahiro Eguchi"
+    }
+})
+el.musicRemix.registerRemix("raidTheme", "raidTheme_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by daph"
+    }
+})
+
+el.musicRemix.registerRemix("forestField", "forestField_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by Quarkimo"
+    }
+})
+el.musicRemix.registerRemix("shockDungeon", "shockDungeon_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by Nishijima Sonda"
+    }
+})
+el.musicRemix.registerRemix("title", "title_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by Dale North"
+    }
+})
+el.musicRemix.registerRemix("finalBoss", "finalBoss_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by Cryptovolans & Chimeratio"
+    }
+})
+
+
+
+el.musicRemix.registerRemix("emilie", "emilie_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by AAAAAA"
+    }
+})
+el.musicRemix.registerRemix("evoDungeon2", "evoDungeon2_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by Tony Thai"
+    }
+})
+el.musicRemix.registerRemix("shizuka", "shizuka_ultimateArrange", {
+    name: {
+        en_US: "Ultimate Arrange"
+    },
+    desc: {
+        en_US: "by Shogo Nomura"
+    }
+})
