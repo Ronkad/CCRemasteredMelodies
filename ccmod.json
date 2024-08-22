@@ -1,6 +1,6 @@
 {
 	"id": "cc-remastered-melodies",
-	"version": "2.0.0",
+	"version": "2.0.2",
 	"title": {
 		"en_US": "Crosscode Remastered Melodies",
 		"de_DE": "Crosscode Remastered Melodies",
@@ -27,7 +27,6 @@
 	"authors": ["Ronkad", "elluminance"],
 	"prestart": "prestart.js",
 	"dependencies": {
-		"Simplify": ">=2.12.1",
 		"crosscode": ">=1.0.0",
 		"el-tweaks": ">=0.8.1"
 	}
