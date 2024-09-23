@@ -2,13 +2,13 @@
 	"id": "cc-remastered-melodies",
 	"version": "2.0.2",
 	"title": {
-		"en_US": "Crosscode Remastered Melodies",
-		"de_DE": "Crosscode Remastered Melodies",
-		"fr_FR": "Crosscode Remastered Melodies",
-		"zh_CN": "Crosscode Remastered Melodies",
-		"zh_TW": "Crosscode Remastered Melodies",
-		"ja_JP": "Crosscode Remastered Melodies",
-		"ko_KR": "Crosscode Remastered Melodies"
+		"en_US": "CC Remastered Melodies",
+		"de_DE": "CC Überarbeitete Melodien",
+		"fr_FR": "CC Mélodies remasterisées",
+		"zh_CN": "CC 重新制作的旋律",
+		"zh_TW": "CC 重製旋律",
+		"ja_JP": "CC リマスター・メロディー",
+		"ko_KR": "CC 리마스터링된 멜로디"
 	},
 	"description": {
 		"en_US": "Replaces some of the music in CrossCode with remastered versions of the original tracks.",
