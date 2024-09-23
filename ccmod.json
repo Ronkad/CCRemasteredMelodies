@@ -23,7 +23,7 @@
 		"24": "icon/icon.png"
 	},
 	"repository": "https://github.com/Ronkad/CCRemasteredMelodies",
-	"tags": ["music", "OST"],
+	"tags": ["music"],
 	"authors": ["Ronkad", "elluminance"],
 	"prestart": "prestart.js",
 	"dependencies": {
