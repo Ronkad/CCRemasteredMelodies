@@ -30,4 +30,3 @@ In this submenu, you can choose which remixes you would like to use.
 ---
 #### Planned:
 - More community remixes
-- Add the mod into the Crosscode Mod manager, so dependencies get installed automatically
