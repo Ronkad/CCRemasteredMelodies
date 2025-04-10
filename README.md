@@ -10,10 +10,11 @@ Currently this mod adds 16 songs.
 ## Installation 
 ### Dependencies
 To run this mod, you need [CCLoader](https://github.com/CCDirectLink/CCLoader), the Crosscode mod manager installed and working.
+From CCLoaders in-game mod manager you can comfortably install the mod without problems. All dependecies will be installed automatically this way.
 
-You also need [el-crosscode-tweaks](https://github.com/elluminance/el-crosscode-tweaks).
-
-To install the mod, download the latest Release from Releases, then put the .ccmod file into your Crosscode assets/mods
+If you prefer a manual installation:
+dependency: [el-crosscode-tweaks](https://github.com/elluminance/el-crosscode-tweaks).
+For manual installation, download the latest Release from Releases, then put the .ccmod file into your Crosscode assets/mods
 
 ---
 You can find a full list of used songs in Credits.txt
