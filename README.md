@@ -1,3 +1,4 @@
+[![CCModManager badge](https://raw.githubusercontent.com/CCDirectLink/CCModManager/refs/heads/master/icon/badge.png)](https://github.com/CCDirectLink/CCModManager)
 # Crosscode Remastered Melodies
 *This mod for Crosscode adds some of the OSTs with arrangements or remixes of said OSTs to the game.*
 
